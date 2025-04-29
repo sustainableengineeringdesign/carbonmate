@@ -7,9 +7,9 @@ import PlusIcon from "vue-material-design-icons/Plus.vue"
 
 <template>
   <div class="flex flex-row gap-2 justify-center">
-    <button><ImportIcon/></button>
-    <button><ExportIcon/></button>
-    <button><ReloadIcon/></button>
+    <button title="import csv"><ImportIcon/></button>
+    <button title="export as csv"><ExportIcon/></button>
+    <button title="clear all"><ReloadIcon/></button>
   </div>
   <table class="table-fixed border-collapse p-5 w-full backdrop-blur-lg">
     <thead>

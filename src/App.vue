@@ -1,29 +1,19 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import InformationIcon from "vue-material-design-icons/Information.vue"
 import Calculator from './components/Calculator.vue';
 </script>
 
 <template>
   <div class="flex-0 text-left text-lg font-black flex flex-row">
-    CarbonMaTE
+    <div class="hover:drop-shadow-lg drop-shadow-slate-500">CarbonMaTE</div>
     <div class="grow"></div>
-    <button><InformationIcon></InformationIcon></button>
+    <button title="user guide"><InformationIcon/></button>
   </div>
   <div class="flex-1 rounded-lg flex flex-col justify-center p-10">
     <div class="h-fit w-full flex flex-col items-center gap-2">
       <Calculator/>
     </div>
   </div>
-  <!-- <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
