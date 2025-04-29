@@ -11,9 +11,9 @@ import PlusIcon from "vue-material-design-icons/Plus.vue"
     <button><ExportIcon/></button>
     <button><ReloadIcon/></button>
   </div>
-  <table class="table-fixed border-collapse p-5 w-full bg-slate-300 backdrop-blur-lg">
+  <table class="table-fixed border-collapse p-5 w-full backdrop-blur-lg">
     <thead>
-      <tr class="border-b border-b-slate-100">
+      <tr class="border-b border-b-slate-300">
         <th class="p-5">Material</th>
         <th class="p-5">Specification</th>
         <th class="p-5">Embodied Carbon Factor<br>kgCO<sub>2</sub>e/kg</th>
@@ -22,7 +22,7 @@ import PlusIcon from "vue-material-design-icons/Plus.vue"
       </tr>
     </thead>
     <tbody>
-      <tr class="border-b border-b-slate-100">
+      <tr class="border-b border-b-slate-300">
         <td class="p-5"><select class="bg-slate-200 p-2 rounded w-full"><option>a</option><option>b</option></select></td>
         <td class="p-5"><select class="bg-slate-200 p-2 rounded w-full"><option>a</option><option>b</option></select></td>
         <td class="p-5">5423542</td>
@@ -40,7 +40,7 @@ import PlusIcon from "vue-material-design-icons/Plus.vue"
         <td></td>
         <td></td>
         <td class="text-right p-5 font-bold">Total</td>
-        <td class="text-right p-5 font-black">1235415234352</td>
+        <td class="p-5 font-black">1235415234352</td>
       </tr>
     </tbody>
   </table>
