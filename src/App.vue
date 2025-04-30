@@ -2,9 +2,10 @@
 import InformationIcon from "vue-material-design-icons/Information.vue"
 import CloseIcon from "vue-material-design-icons/Close.vue"
 import Calculator from './components/Calculator.vue';
+import UserGuide from "./components/UserGuide.vue";
 import { ref } from "vue";
 
-const showguide = ref(false)
+const showguide = ref(true)
 </script>
 
 <template>
@@ -18,11 +19,12 @@ const showguide = ref(false)
       <Calculator/>
     </div>
   </div>
-  <div class="absolute left-0 top-0 w-screen h-screen bg-slate-500/50 backdrop-blur-xs backdrop-grayscale flex flex-col" :class="showguide ? '' : 'hidden'">
-    <div class="flex flex-row p-10">
+  <div class="absolute left-0 top-0 w-screen h-screen bg-slate-500/50 backdrop-blur-xs backdrop-grayscale flex flex-col p-10 gap-3" :class="showguide ? '' : 'hidden'">
+    <div class="flex flex-row">
       <div class="grow"></div>
       <button title="close" class="bg-white p-3 rounded-full cursor-pointer hover:bg-slate-500" @click="showguide = false"><CloseIcon/></button>
     </div>
+    <UserGuide/>
   </div>
 </template>
 
