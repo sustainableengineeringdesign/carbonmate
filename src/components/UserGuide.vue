@@ -103,6 +103,9 @@ const tabidx = ref(0)
           </div>
           <div>The Carbon Score reflects how sustainable the design is, with lower emissions resulting in a better score.</div>
         </div>
+        <div class="bg-slate-200 rounded p-5">
+          Carbon data sources: <a href="https://www.cidb.gov.my/wp-content/uploads/2022/11/V4_EMBODIED-CARBON-INVENTORY-TEMPLATE-final-1.pdf" target="_blank">https://www.cidb.gov.my/wp-content/uploads/2022/11/V4_EMBODIED-CARBON-INVENTORY-TEMPLATE-final-1.pdf</a>
+        </div>
       </div>
       <div class="grow transition-all overflow-y-auto flex flex-col gap-2 px-2" :class="tabidx == 1 ? 'w-full' : 'h-0 w-0'">
         <div class="bg-slate-200 rounded p-5" v-for="mat in Object.keys(MaterialData).sort()">
