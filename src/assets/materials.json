@@ -1,0 +1,3198 @@
+{
+  "Aggregate & Sand": {
+    "General aggregate and sand*": {
+      "market price": "RM 34/tonne",
+      "embodied carbon factor": "0.0049",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Marine sand and aggregate": {
+      "market price": "RM 34/tonne",
+      "embodied carbon factor": "0.01",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Recycled aggregate without heat treat": {
+      "market price": "RM 34/tonne",
+      "embodied carbon factor": "0.01",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Recycled aggregate with heat treat tonne ": {
+      "market price": "RM 34/tonne",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Secondary aggregate and sand": {
+      "market price": "RM 21/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Secondary and recycled aggregate and sand": {
+      "market price": "RM 21/tonne",
+      "embodied carbon factor": "0.01",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Gravel, crushed": {
+      "market price": "RM 33/tonne",
+      "embodied carbon factor": "0.01",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Gravel, unspecified": {
+      "market price": "RM 33/tonne",
+      "embodied carbon factor": "0.01",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Gravel, round": {
+      "market price": "RM 33/tonne",
+      "embodied carbon factor": "0.01",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Recycled aggregate": {
+      "market price": "RM 21/tonne",
+      "embodied carbon factor": "0.01",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Soil": {
+    "General (Rammed Soil)*": {
+      "market price": "RM 50 - 100/m3",
+      "embodied carbon factor": "0.02",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement stabilised soil @ 5%": {
+      "market price": "RM 120 - 200/m3",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement stabilised soil @ 8%": {
+      "market price": "RM 120 - 200/m3",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "stabilised soil": {
+      "market price": "RM 120 - 200/m3",
+      "embodied carbon factor": "0.05",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Fly ash stabilised soil": {
+      "market price": "RM 120 - 200/m3",
+      "embodied carbon factor": "0.04",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Stone": {
+    "Stone, Shale": {
+      "market price": "RM 100 - 150/m2",
+      "embodied carbon factor": "0.002",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sandstone": {
+      "market price": "RM 100 - 150/m2",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Stone, General*": {
+      "market price": "RM 50 - 100/m2",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Stone, Limestone": {
+      "market price": "RM 5 - 15/m2",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Stone, Marble": {
+      "market price": "RM 150 - 250/m2",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Stone, Slate": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "0.63",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Stone, Granite": {
+      "market price": "RM 150 - 250/m2",
+      "embodied carbon factor": "0.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Cement": {
+    "Cement CEM III/C - 88% GGBS - Blast furnace cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM III/B - 73% GGBS - Blast furnace cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.28",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM V/B - 36% GGBS and 36% cement replacement - Composite cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.28",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM III/A - 50.5% GGBS - Blast furnace cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.47",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM V/A - 24% GGBS and 24% cement replacement - Composite cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.49",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM IV/B - 46% cement replacement - Pozzolanic cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/B-V - 28% fly ash siliceous - Portland- fly ash cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.66",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/B-W - 28% fly ash calcareous - Portland-fly ash cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.66",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/B-P 28% natural pozzolanic ash - Portland-pozzolana cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.66",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/B-L- 28% limestone - Portland- limestone cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.66",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/B-LL - 28% limestone - Portland- limestone cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.66",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/B-M - 28% cement replacement- Portland-composite cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.67",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/B-S - 28% GGBs - Portland-slag cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.67",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM IV/A - 23% cement replacement - Pozzolanic cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.71",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/A-M - 16% cement replacement - Portland-composite cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.77",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/A-V - 13% fly ash siliceous - Portland- fly ash cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.8",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/A-W - 13% fly ash calcareous - Portland-fly ash cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.8",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/A-P - 13% natural pozzolanic ash - Portland-pozzolana cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.8",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/A-L - 13% limestone - Portland- limestone cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.8",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II/A-LL - 13% limestone - Portland- limestone cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.8",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM II-A-S - 13% GGBs - Portland-slag cement": {
+      "market price": "RM 17.5 - 22/bag",
+      "embodied carbon factor": "0.8",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement*": {
+      "market price": "RM 16/bag",
+      "embodied carbon factor": "0.83",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement CEM I - Portland cement": {
+      "market price": "RM 17.5/bag",
+      "embodied carbon factor": "0.91",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Concrete": {
+    "General Concrete*": {
+      "market price": "RM 220-350/m3",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete 20 MPa": {
+      "market price": "RM 220 per m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete: 20/25 Mpa": {
+      "market price": "RM 220 per m3",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete: 25/30 Mpa": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete: 28/35 Mpa": {
+      "market price": "RM 240 per m3",
+      "embodied carbon factor": "0.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete: 32/40 Mpa": {
+      "market price": "RM 250 per m3",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete: 35/45 Mpa": {
+      "market price": "RM 300 per m3",
+      "embodied carbon factor": "0.16",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete: 40/50 Mpa": {
+      "market price": "RM 330 per m3",
+      "embodied carbon factor": "0.17",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC20/25 with 15% PFA cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.11",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC25/30 with 15% PFA cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC28/35 with 15% PFA cement": {
+      "market price": "RM 250 per m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC32/40 with 15% PFA cement": {
+      "market price": "RM 300 per m3",
+      "embodied carbon factor": "0.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC35/45 with 15% PFA cement": {
+      "market price": "RM 330 per m3",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC40/50 with 15% PFA cement": {
+      "market price": "RM 350 per m3",
+      "embodied carbon factor": "0.16",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC20/25 with 30% PFA cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC25/30 with 30% PFA cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.11",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC28/35 with 30% PFA cement": {
+      "market price": "RM 250 per m3",
+      "embodied carbon factor": "0.11",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC32/40 with 30% PFA cement": {
+      "market price": "RM 300 per m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC35/45 with 30% PFA cement": {
+      "market price": "RM 330 per m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC40/50 with 30% PFA cement": {
+      "market price": "RM 350 per m3",
+      "embodied carbon factor": "0.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC20/25 with 40% PFA cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC25/30 with 40% PFA cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC28/35 with 40% PFA cement": {
+      "market price": "RM 250 per m3",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC32/40 with 40% PFA cement": {
+      "market price": "RM 300 per m3",
+      "embodied carbon factor": "0.11",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC35/45 with 40% PFA cement": {
+      "market price": "RM 330 per m3",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC40/50 with 40% PFA cement": {
+      "market price": "RM 350 per m3",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC20/25 with 25% GGBS cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC25/30 with 25% GGBS cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC28/35 with 25% GGBS cement": {
+      "market price": "RM 250 per m3",
+      "embodied carbon factor": "0.11",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC32/40 with 25% GGBS cement": {
+      "market price": "RM 300 per m3",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC35/45 with 25% GGBS cement": {
+      "market price": "RM 330 per m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC40/50 with 25% GGBS cement": {
+      "market price": "RM 350 per m3",
+      "embodied carbon factor": "0.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC20/25 with 50% GGBS cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC25/30 with 50% GGBS cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC28/35 with 50% GGBS cement": {
+      "market price": "RM 250 per m3",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC32/40 with 50% GGBS cement": {
+      "market price": "RM 300 per m3",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC35/45 with 50% GGBS cement": {
+      "market price": "RM 330 per m3",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC40/50 with 50% GGBS cement": {
+      "market price": "RM 350 per m3",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC20/25 with 70% GGBS cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.05",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC25/30 with 70% GGBS cement": {
+      "market price": "RM 230 per m3",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC28/35 with 70% GGBS cement": {
+      "market price": "RM 250 per m3",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC32/40 with 70% GGBS cement": {
+      "market price": "RM 300 per m3",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC35/45 with 70% GGBS cement": {
+      "market price": "RM 330 per m3",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete RC40/50 with 70% GGBS cement": {
+      "market price": "RM 350 per m3",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Bricks": {
+    "Common bricks*": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "0.21",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "A single brick ": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "0.45",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sand-lime brick": {
+      "market price": "RM 30/m2",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Light clay brick": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Reinforcement": {
+    "Reinforcing Bar*": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "0.68",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel Deformed Bars for Concrete Reinforcement kg": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "0.53",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cold-rolled reinforcing steel and electrowelded mesh kg": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "0.77",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Structural Steel: Sections and Plates kg": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel CA60 rebar, welded mesh and truss kg": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.62",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Reinforcing steel*": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.99",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Hot Rolled Stainless Steel kg": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "2.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cold Rolled  Stainles Steel kg": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "3.39",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Stainless Steel Rebar *": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "3.78",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Steel": {
+    "Steel rebar, recycled, Europe EAF mid range": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "0.73",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, Engineering steel": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.27",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, Section": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.55",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, Rebar*": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.99",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, global seamless tube": {
+      "market price": "RM 82/m/1 inch dia",
+      "embodied carbon factor": "2.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, Wire rod": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "2.27",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, Hot Rolled Coil": {
+      "market price": "RM 4.3/kg",
+      "embodied carbon factor": "2.28",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, pickled hot- rolled coil": {
+      "market price": "RM 6/kg",
+      "embodied carbon factor": "2.42",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel plate": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "2.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "steel, Cold Rolled Coil": {
+      "market price": "RM 6/ kg",
+      "embodied carbon factor": "2.53",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel finished cold- rolled coil": {
+      "market price": "RM 6/ kg",
+      "embodied carbon factor": "2.73",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel hot-dip galvanized steel": {
+      "market price": "RM 4/kg",
+      "embodied carbon factor": "2.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel welded pipe": {
+      "market price": "RM 33/m/3 inch dia",
+      "embodied carbon factor": "2.78",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel tinplate": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "2.85",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Tin-free Electrolytic Chrome Coated Steel Sheet": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "2.89",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel Pipe*": {
+      "market price": "RM 25 - 50/m/2 inch",
+      "embodied carbon factor": "3.02",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Electrogalvanized steel": {
+      "market price": "RM 2-4/kg",
+      "embodied carbon factor": "3.03",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel organic coated sheet": {
+      "market price": "RM 2-4/kg",
+      "embodied carbon factor": "3.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Binder": {
+    "Mortar (1:6)": {
+      "market price": "RM 235/m3",
+      "embodied carbon factor": "0.11",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mortar (1:5)": {
+      "market price": "RM 245/m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mortar (1:2:9 Cement:Lime:Sand mix)": {
+      "market price": "RM 265/m3",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mortar (1:1:6 Cement:Lime:Sand mix)": {
+      "market price": "RM 265/m3",
+      "embodied carbon factor": "0.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mortar (1:4)": {
+      "market price": "RM 255/m3",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mortar (1:\u00bd:4\u00bd Cement:Lime:Sand mix)": {
+      "market price": "RM 265/m3",
+      "embodied carbon factor": "0.16",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mortar (1:3 cement:sand mix)": {
+      "market price": "RM 265/m3",
+      "embodied carbon factor": "0.18",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement mortar*": {
+      "market price": "RM 35/m3",
+      "embodied carbon factor": "0.24",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Light mortar": {
+      "market price": "RM 20/m3",
+      "embodied carbon factor": "0.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Adhesive mortar": {
+      "market price": "RM 15/m3",
+      "embodied carbon factor": "1.35",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Acrylic binder, 34% in H2O, at plant": {
+      "market price": "RM 40/m3",
+      "embodied carbon factor": "1.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Plaster": {
+    "General (Gypsum)*": {
+      "market price": "RM 21/m2 ",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plasterboard": {
+      "market price": "RM 20 - 25/m2",
+      "embodied carbon factor": "0.39",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plaster mixing": {
+      "market price": "RM 10 - 15/m2",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Sealants and Adhesives": {
+    "Urea Formaldehyde": {
+      "market price": "RM 15/kg",
+      "embodied carbon factor": "2.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Phenol Formaldehyde": {
+      "market price": "RM 15/kg",
+      "embodied carbon factor": "2.98",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Melamine Resin": {
+      "market price": "RM 20/kg",
+      "embodied carbon factor": "4.19",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Epoxide Resin": {
+      "market price": "RM 20/kg",
+      "embodied carbon factor": "5.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Aluminium": {
+    "Aluminium, General*": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "0.93",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Aluminium profile": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "1.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Aluminium cast": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "1.32",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Aluminium sheet": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "1.85",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Aluminium foil": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "1.72",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Timber": {
+    "Timber, Hardwood": {
+      "market price": "RM 150/m2",
+      "embodied carbon factor": "0.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Laminated veneer lumber": {
+      "market price": "RM 100 - 250/m2",
+      "embodied carbon factor": "0.39",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Chipboard": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.4",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, CLT": {
+      "market price": "RM 200 - 250/m2",
+      "embodied carbon factor": "0.44",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Closed panel timber frame system": {
+      "market price": "RM 350 - 500/m2",
+      "embodied carbon factor": "0.45",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber - Average of all data": {
+      "market price": "RM 35 - 50/m2",
+      "embodied carbon factor": "0.49",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Laminated strand lumber": {
+      "market price": "RM 50 - 150/m2",
+      "embodied carbon factor": "0.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Glulam": {
+      "market price": "RM 200/m2",
+      "embodied carbon factor": "0.51",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Laminate": {
+      "market price": "RM 35 - 75/m2",
+      "embodied carbon factor": "0.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Fibreboard": {
+      "market price": "RM 200/m2",
+      "embodied carbon factor": "0.72",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, parquet": {
+      "market price": "RM 80 - 110/m2",
+      "embodied carbon factor": "0.81",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, Hardboard": {
+      "market price": "RM 200/m2",
+      "embodied carbon factor": "0.82",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber, MDF": {
+      "market price": "RM 45 - 100/m2",
+      "embodied carbon factor": "0.86",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Brass": {
+    "Recycled": {
+      "market price": "RM 20 - 30/kg",
+      "embodied carbon factor": "1.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Nordic Brass": {
+      "market price": "RM 20 - 30/kg",
+      "embodied carbon factor": "1.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General*": {
+      "market price": "RM 20 - 30/kg",
+      "embodied carbon factor": "2.64",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Virgin": {
+      "market price": "RM 20 - 30/kg",
+      "embodied carbon factor": "4.8",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Brass Bathroom Mixers": {
+      "market price": "RM 20 - 30/kg",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Bath Mixer": {
+      "market price": "RM 5000 - 10000 /no",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Basin Mixer": {
+      "market price": "RM 200 - 500/no",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sink (Kitchen) Mixer": {
+      "market price": "RM 500 - 700/no",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Shower Mixer": {
+      "market price": "RM 500 - 800/no",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Tap": {
+      "market price": "RM 5 - 50/no ",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Valve": {
+      "market price": "RM 5 - 30/no",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Drain System": {
+      "market price": "RM 20 - 50/no",
+      "embodied carbon factor": "9.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Zinc": {
+    "Zinc, from combined metal production, at beneficiation": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "0.44",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Recycled": {
+      "market price": "RM 10/kg",
+      "embodied carbon factor": "0.52",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Zinc, from combined metal production, at refinery": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "1.02",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Zinc coating, pieces, adjustment per um": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "0.088115",
+      "functional unit": "kgCO2e/m2",
+      "remark": "1.47 kgCO2e/kg, Conv. Factor, thickness 0.25 mm=0.06 kg/m2"
+    },
+    "Hot dip galvanized steel with pure Zinc coating": {
+      "market price": "RM 4/kg",
+      "embodied carbon factor": "2.56",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Natural Rolled Zinc ": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "2.91",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Preweathered Rolled Zinc ": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "2.97",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General*": {
+      "market price": "RM 10/kg",
+      "embodied carbon factor": "3.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Textured and Mattified Rolled Zinc": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "3.36",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Coated (on the sub-face) preweathered rolled zinc": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "3.37",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Coated PreWeathered Rolled Zinc": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "3.4",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Zinc , from Imperial smelting furnace": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "3.43",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Virgin": {
+      "market price": "RM 10/kg",
+      "embodied carbon factor": "4.18",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Zinc, primary": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "5.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Zinc coating, coils": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "6.58",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    " Zinc coating, pieces": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "9.03",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    }
+  },
+  "Lead": {
+    "Recycled": {
+      "market price": "RM 35/kg",
+      "embodied carbon factor": "0.58",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General*": {
+      "market price": "RM 42/kg",
+      "embodied carbon factor": "1.67",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Virgin": {
+      "market price": "RM 42/kg",
+      "embodied carbon factor": "3.37",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Plastic": {
+    "Plastics, General*": {
+      "market price": "RM 5 - 15/m2",
+      "embodied carbon factor": "1.93",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Low Density Polyethylene (LDPE)": {
+      "market price": "RM 250 - 300/m2/5mm thick",
+      "embodied carbon factor": "2.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, High Density Polyethylene (HDPE)": {
+      "market price": "RM 250 - 300/m2/5mm thick",
+      "embodied carbon factor": "2.52",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "plastics, Acrylic": {
+      "market price": "RM 30 - 50/m2",
+      "embodied carbon factor": "2.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polyamide Resin (PA)": {
+      "market price": "RM 20 - 40/kg",
+      "embodied carbon factor": "2.6",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polyamide Nylon": {
+      "market price": "RM 10 - 20/m2",
+      "embodied carbon factor": "3.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastic, polyethylene vinyl acetate": {
+      "market price": "RM 250 - 300/m2/5mm thick",
+      "embodied carbon factor": "3.16",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastic, Multi-plastic": {
+      "market price": "RM 10 - 20/m2",
+      "embodied carbon factor": "3.19",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastic, Multi-non-plastic- material": {
+      "market price": "RM 10 - 20/m2",
+      "embodied carbon factor": "3.23",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polystyrene": {
+      "market price": "RM 50 - 60/m2",
+      "embodied carbon factor": "3.29",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastic, Ethylene tetrafluoroethylene": {
+      "market price": "RM 400 - 500/m2",
+      "embodied carbon factor": "3.3",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, PVC": {
+      "market price": "RM 2-5/m2",
+      "embodied carbon factor": "3.42",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polyethylterepthalate (PET)": {
+      "market price": "RM 220 - 270/m2",
+      "embodied carbon factor": "3.43",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polyurethane": {
+      "market price": "RM 60/m2 ",
+      "embodied carbon factor": "3.43",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, ABS": {
+      "market price": "RM 20-30/m2",
+      "embodied carbon factor": "3.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Misc": {
+      "market price": "RM 5-10/m2",
+      "embodied carbon factor": "4.26",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Resin": {
+      "market price": "RM 20 - 40/kg",
+      "embodied carbon factor": "4.39",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polypropylene": {
+      "market price": "RM 30 - 40 /m2",
+      "embodied carbon factor": "4.49",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, UPVC": {
+      "market price": "RM 5-10/m2",
+      "embodied carbon factor": "4.84",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polyethylene": {
+      "market price": "RM 250 - 300/m2/5mm thick",
+      "embodied carbon factor": "7.62",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polyester": {
+      "market price": "RM 20-30/m2",
+      "embodied carbon factor": "7.92",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plastics, Polycarbonate": {
+      "market price": "RM 5 - 15/m2",
+      "embodied carbon factor": "9.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Glass": {
+    "Glass, General, per kg*": {
+      "market price": "RM 100-150/m2",
+      "embodied carbon factor": "1.44",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Multi layer safety, unfilled, per kg": {
+      "market price": "RM 450/m2",
+      "embodied carbon factor": "1.56",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Glazing, Double, per kg": {
+      "market price": "RM 225 - 280/m2",
+      "embodied carbon factor": "1.63",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Toughened, per kg": {
+      "market price": "RM 500/m2",
+      "embodied carbon factor": "1.67",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Glazing triple, per kg": {
+      "market price": "RM 350 - 400/m2",
+      "embodied carbon factor": "1.75",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Multi layer safety, filled core, fire resistant, toughened, per kg": {
+      "market price": "RM 500/m2",
+      "embodied carbon factor": "2.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, sky light or roof, with frame, per kg": {
+      "market price": "RM 450/m2",
+      "embodied carbon factor": "3.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Insulation": {
+    "Sheep wool": {
+      "market price": "RM 2.3/m2",
+      "embodied carbon factor": "0.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cork": {
+      "market price": "RM 16 /m2",
+      "embodied carbon factor": "0.19",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Paper wool": {
+      "market price": "RM 1.50/m2",
+      "embodied carbon factor": "0.63",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cork slab": {
+      "market price": "RM  35/m2",
+      "embodied carbon factor": "0.81",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Woodwool (board)": {
+      "market price": "RM 12 /m2",
+      "embodied carbon factor": "0.98",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Rockwool": {
+      "market price": "RM 5.5/m2",
+      "embodied carbon factor": "1.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mineral wool": {
+      "market price": "RM 5 /m2",
+      "embodied carbon factor": "1.28",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Fibreglass (Glasswool)": {
+      "market price": "RM 8.50 /m2",
+      "embodied carbon factor": "1.35",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Flax (Insulation)": {
+      "market price": "RM 12.5 /m2",
+      "embodied carbon factor": "1.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cellulose insulator": {
+      "market price": "RM 2.5/m2",
+      "embodied carbon factor": "1.83",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General Insulation": {
+      "market price": "RM 4.50/m2",
+      "embodied carbon factor": "1.86",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Polystyrene": {
+      "market price": "RM 7.50 /m2",
+      "embodied carbon factor": "3.36",
+      "functional unit": "kgCO2e/kg",
+      "remark": "3.29 - 3.43 kgCO2e/kg (calculated as 3.36 kgCO2e/kg)"
+    },
+    "Polyurethane": {
+      "market price": "RM 60/m2",
+      "embodied carbon factor": "4.55",
+      "functional unit": "kgCO2e/kg",
+      "remark": "4.26 - 4.84 kgCO2e/kg (calculated as 4.55 kgCO2e/kg)"
+    },
+    "Polyurethane rigid foam": {
+      "market price": "RM 66 /m2",
+      "embodied carbon factor": "6.78",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Polyurethane slab": {
+      "market price": "RM 76/m2",
+      "embodied carbon factor": "7.36",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Tiles": {
+    "Slate Tiles ": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Limestone Tile": {
+      "market price": "RM 240/m2",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sandstone Tiles": {
+      "market price": "RM 15-20/m2",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Terrazzo tiles": {
+      "market price": "RM 21 /m2",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Granite Tile": {
+      "market price": "RM 290 - 310/m2",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Marble Tile*": {
+      "market price": "RM 180 - 220/m2",
+      "embodied carbon factor": "0.21",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete Roof Tile*": {
+      "market price": "RM 45/m2",
+      "embodied carbon factor": "0.24",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Quarry Tile": {
+      "market price": "RM 30 - 60/m2",
+      "embodied carbon factor": "0.29",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Clay/ceramic Roof Tile": {
+      "market price": "RM 60/m2",
+      "embodied carbon factor": "0.48",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cork Floor Tile": {
+      "market price": "RM 100/m2",
+      "embodied carbon factor": "0.58",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Hardwood Tiles": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.59",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Ecologic Porcelain Tiles": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "0.63",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Ceramic Tile*": {
+      "market price": "RM 23/m2",
+      "embodied carbon factor": "0.78",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glazed porcelain tiles": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "0.87",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Unglazed porcelain tiles": {
+      "market price": "RM 41/m2",
+      "embodied carbon factor": "0.87",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Tech Porcelain Tiles": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "0.88",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Needled carpet tiles (pile material 700-800 g/m\u00b2 PP, heavy backing bitumen based)": {
+      "market price": "RM 67/m2",
+      "embodied carbon factor": "1.17",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Vinyl tile (floor)*": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "1.23",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Ceiling tile*": {
+      "market price": "RM 20/m2",
+      "embodied carbon factor": "1.32",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement Tile*": {
+      "market price": "RM 70/m2",
+      "embodied carbon factor": "1.44",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Roof Tile": {
+      "market price": "RM 60/m2",
+      "embodied carbon factor": "1.63",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Carpet tiles, nylon (Polyamide pile weight 300 g/m2)": {
+      "market price": "RM 67/m2",
+      "embodied carbon factor": "1.88",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Carpet tiles, nylon (Polyamide, pile weight 500 g/m2)": {
+      "market price": "RM 67/m2",
+      "embodied carbon factor": "2.45",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mineral Fibre Tile (roofing)": {
+      "market price": "RM 50",
+      "embodied carbon factor": "2.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Carpet tiles, nylon (Polyamide), pile weight 700 g/m2)": {
+      "market price": "RM 67/m2",
+      "embodied carbon factor": "2.96",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Carpet tile  (tufted - 1200g/m2, polyamine 6.6)": {
+      "market price": "RM 67/m2",
+      "embodied carbon factor": "3.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Vinyl Composite  Tiles (VCT)": {
+      "market price": "RM 100 - 200/m2",
+      "embodied carbon factor": "3.19",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Carpet tiles, nylon (Polyamide, pile weight 900 g/m2)": {
+      "market price": "RM 67/m2",
+      "embodied carbon factor": "3.43",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Carpet tiles, nylon (Polyamide, pile weight 1100 g/m2)": {
+      "market price": "RM 67/m2",
+      "embodied carbon factor": "3.85",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Paint": {
+    "Single coat (assuming 6.66 m2 coverage per kg)": {
+      "market price": "RM 9/m2",
+      "embodied carbon factor": "0.44",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Double coat (assuming 3.33 m2 coverage per kg)": {
+      "market price": "RM 18/m2",
+      "embodied carbon factor": "0.87",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Triple coat (assuming 2.22 m2 coverage per kg)": {
+      "market price": "RM 24/m2",
+      "embodied carbon factor": "1.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Intumescent paint (for steel work)": {
+      "market price": "RM 15/m2",
+      "embodied carbon factor": "2.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Emulsion paint (scouring proof)": {
+      "market price": "RM 10/m2",
+      "embodied carbon factor": "2.34",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Waterborne paint": {
+      "market price": "RM 10/m2",
+      "embodied carbon factor": "2.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General paint": {
+      "market price": "RM 6 - 9/m2",
+      "embodied carbon factor": "2.91",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Alkyd paint, 60% in H2O": {
+      "market price": "RM 11/m2",
+      "embodied carbon factor": "2.96",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Alkyd paint, 60% in solvent": {
+      "market price": "RM 11/m2",
+      "embodied carbon factor": "3.21",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Solvent-borne paint": {
+      "market price": "RM 10/m2",
+      "embodied carbon factor": "3.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Pipe": {
+    "Vitrified clay pipe DN 100 & DN 150": {
+      "market price": "RM 40 - 100/m",
+      "embodied carbon factor": "0.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Vitrified clay pipe DN 200 & DN 300": {
+      "market price": "RM 40 - 100/m",
+      "embodied carbon factor": "0.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Vitrified clay pipe DN 500": {
+      "market price": "RM 40 - 100/m",
+      "embodied carbon factor": "0.55",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "HDPE (High Density Polyethyline)": {
+      "market price": "RM 2/m/0.5 inch",
+      "embodied carbon factor": "2.52",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Brass": {
+      "market price": "RM 45/m/0.5 inch",
+      "embodied carbon factor": "2.64",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Copper": {
+      "market price": "RM 26/m/0.5 inch",
+      "embodied carbon factor": "2.71",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel pipe": {
+      "market price": "RM 33/m/3 inch",
+      "embodied carbon factor": "2.9",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel, UO Pipe": {
+      "market price": "RM 33/m/3 inch",
+      "embodied carbon factor": "3.02",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "PVC": {
+      "market price": "RM 3/m/0.5 inch",
+      "embodied carbon factor": "3.23",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Acrylonitrile Butadiene Styrene": {
+      "market price": "RM 7.50/m/0.5 inch",
+      "embodied carbon factor": "3.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Asphalt": {
+    "Asphalt General, 3% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.05",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 3.5% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.05",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 4% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.05",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 4.5% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.05",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 5% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.05",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 5.5% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 6% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 6.5% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt General, 7% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 3% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 3.5%  binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 4% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 4.5%  binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 5% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 5.5%  binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 6% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 6.5%  binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt for road, 7% binder content": {
+      "market price": "RM 190/tonne",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Mastic asphalt": {
+      "market price": "RM 210/tonne",
+      "embodied carbon factor": "0.25",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Bitumen": {
+    "Bitumen, Straight-run": {
+      "market price": "RM 174/tonne",
+      "embodied carbon factor": "0.19",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Polymer modified bitumen (PMB)": {
+      "market price": "RM 174/tonne",
+      "embodied carbon factor": "0.33",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Bitumen emulsion": {
+      "market price": "RM 300/tonne",
+      "embodied carbon factor": "0.22",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Footing": {
+    "Stone": {
+      "market price": "RM 50 - 100/m2",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete": {
+      "market price": "RM 220-350/m3",
+      "embodied carbon factor": "0.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement": {
+      "market price": "RM 16/bag",
+      "embodied carbon factor": "0.83",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Flooring": {
+    "Shale": {
+      "market price": "RM 100 - 150/m2",
+      "embodied carbon factor": "0.002",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Slate": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "0.04",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sand stone": {
+      "market price": "RM 15-20/m2",
+      "embodied carbon factor": "0.06",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Lime stone*": {
+      "market price": "RM 240/m2",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Terazzo tile*": {
+      "market price": "RM 21/m2",
+      "embodied carbon factor": "0.118",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Marble tile ": {
+      "market price": "RM 180 - 220/m2",
+      "embodied carbon factor": "0.21",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sawn softwood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.26",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Oriented Strand Board (OSB) ": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sawn hardwood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.47",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glue laminated timber ": {
+      "market price": "RM 200/m2",
+      "embodied carbon factor": "0.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Bricks tile ": {
+      "market price": "RM 21/m2",
+      "embodied carbon factor": "0.55",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Particle Board": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.66",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plywood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.68",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Granite": {
+      "market price": "RM 290 - 310/m2",
+      "embodied carbon factor": "0.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Parquet": {
+      "market price": "RM 33/m2",
+      "embodied carbon factor": "0.81",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Hardboard (High Density Fibreboard)": {
+      "market price": "RM 200/m2",
+      "embodied carbon factor": "0.82",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Ceramic tile*": {
+      "market price": "RM 23/m2",
+      "embodied carbon factor": "0.96",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Linoleum": {
+      "market price": "RM 50/m2",
+      "embodied carbon factor": "1.21",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Nylon (Polyamide) carpet tiles, pile weight 300 g/m2": {
+      "market price": "RM 30 - 50/m2",
+      "embodied carbon factor": "1.88",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Nylon (Polyamide) carpet tiles, pile weight 500 g/m2": {
+      "market price": "RM 30 - 50/m2",
+      "embodied carbon factor": "2.45",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Nylon (Polyamide) carpet tiles, pile weight 700 g/m2": {
+      "market price": "RM 30 - 50/m2",
+      "embodied carbon factor": "2.96",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Vinyl Flooring \u2013 Step\u00ae Slip - Resistant Commercial (2 mm) per m2": {
+      "market price": "RM 82/m2",
+      "embodied carbon factor": "3.19",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Nylon (Polyamide) carpet tiles, pile weight 900 g/m2": {
+      "market price": "RM 30 - 50/m2",
+      "embodied carbon factor": "3.43",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Rubber": {
+      "market price": "RM 40/m2",
+      "embodied carbon factor": "3.61",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Polyurethane": {
+      "market price": "RM 60/m2 ",
+      "embodied carbon factor": "3.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Nylon (Polyamide) carpet tiles, pile weight 1100 g/m2": {
+      "market price": "RM 30 - 50/m2",
+      "embodied carbon factor": "3.85",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General carpet*": {
+      "market price": "RM 70/m2",
+      "embodied carbon factor": "3.9",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Polypropylene": {
+      "market price": "RM 30 - 40/m2",
+      "embodied carbon factor": "4.98",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Polyethylterepthalate (PET)": {
+      "market price": "RM 220 - 270/m2",
+      "embodied carbon factor": "5.56",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Subfloor": {
+    "Sawn softwood": {
+      "market price": "RM 8-15/m",
+      "embodied carbon factor": "0.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber/Lumber/Wood": {
+      "market price": "RM 35 - 50/m2",
+      "embodied carbon factor": "0.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plywood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.34",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Oriented Strand Board (OSB)": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.45",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Particle Board": {
+      "market price": "RM 30-40/m2",
+      "embodied carbon factor": "0.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Wall": {
+    "Steel Reinforced Concrete (General)*": {
+      "market price": "RM 300-350/m3",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel Reinforced Concrete 20/25 Mpa, 15% fly ash": {
+      "market price": "RM 300-350/m3",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete Block 10 Mpa": {
+      "market price": "RM 70 - 100/m2",
+      "embodied carbon factor": "0.0781",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Stone (General)*": {
+      "market price": "RM 50 - 100/m2",
+      "embodied carbon factor": "0.079",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete (general)*": {
+      "market price": "RM 220-350/m3",
+      "embodied carbon factor": "0.107",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete 20/25 Mpa, 15% fly ash": {
+      "market price": "RM 220 per m3",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sawn softwood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Clay Brick (General)*": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "0.24",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General (Simple Baked Products)": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "0.24",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber/Lumber/Wood": {
+      "market price": "RM 35 - 50/m2",
+      "embodied carbon factor": "0.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber/Lumber/Wood (General)*": {
+      "market price": "RM 35 - 50/m2",
+      "embodied carbon factor": "0.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Laminated veneer lumber": {
+      "market price": "RM 100 - 250/m2",
+      "embodied carbon factor": "0.33",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plywood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.34",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Oriented Strand Board (OSB)": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.45",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Particle Board": {
+      "market price": "RM 31/m2",
+      "embodied carbon factor": "0.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cement (General)*": {
+      "market price": "RM 15.5-RM17.5/bag",
+      "embodied carbon factor": "0.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Wood I-Joists, per m of joist": {
+      "market price": "RM 50 - 150/m2",
+      "embodied carbon factor": "1.67",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cold formed Interior/Exterior Framing, Floor Framing, Connectors, per MT": {
+      "market price": "RM 7/kg",
+      "embodied carbon factor": "2.39",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Corkboard": {
+      "market price": "RM 27 - 35/m2",
+      "embodied carbon factor": "2.28",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Wood": {
+      "market price": "RM 50 - 150/m2",
+      "embodied carbon factor": "1.9",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Fiberglass Batt": {
+      "market price": "RM 7 - 12/m2",
+      "embodied carbon factor": "2.28",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Cladding Outsulation": {
+      "market price": "RM 100 - 200/m2",
+      "embodied carbon factor": "4.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Aluminum Siding": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "4.6",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Expanded Polystyrene": {
+      "market price": "RM 50 - 60/m2",
+      "embodied carbon factor": "4.7",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Softwood Plywood per m3": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "10.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Vinyl": {
+      "market price": "RM 100 - 200/m2",
+      "embodied carbon factor": "10.8",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Stucco": {
+      "market price": "RM 20 - 30/m2",
+      "embodied carbon factor": "12",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Insulation Siding": {
+      "market price": "RM 100 - 250/m2",
+      "embodied carbon factor": "14.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Marble Cladding": {
+      "market price": "RM 150 - 300/m2",
+      "embodied carbon factor": "15.3",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Glued Laminated Timbers per m3": {
+      "market price": "RM 200/m2",
+      "embodied carbon factor": "16.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Cold-Formed Steel Stud/Track per unit": {
+      "market price": "RM 7/kg",
+      "embodied carbon factor": "24.9",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Laminated Veneer Lumber (LVL) per m3": {
+      "market price": "RM 100 - 250/m2",
+      "embodied carbon factor": "25",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Meteon Panels": {
+      "market price": "RM 350 - 600/m2",
+      "embodied carbon factor": "25.3",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Oriented Strand Board (OSB) per m3": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "26",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Stone Wool": {
+      "market price": "RM 7 - 12/m2",
+      "embodied carbon factor": "45.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Virgin Fibercement": {
+      "market price": "RM 25 - 50/m2",
+      "embodied carbon factor": "52",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Cellular Glass": {
+      "market price": "RM 12 - 25/m2",
+      "embodied carbon factor": "69",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Timber Curtain Wall With Plasterboard": {
+      "market price": "RM 110 - 310/m2",
+      "embodied carbon factor": "72.64",
+      "functional unit": "kgCO2e/m3",
+      "remark": ""
+    },
+    "Aluminum Curtain Wall": {
+      "market price": "RM 250 - 500/m2",
+      "embodied carbon factor": "73",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Blown Glass Wool": {
+      "market price": "RM 7 - 12/m2",
+      "embodied carbon factor": "82",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Softwood Boarding On Battens": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "98",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Brick & Mortar": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "129.77",
+      "functional unit": "kgCO2e/m3",
+      "remark": ""
+    },
+    "Brickwork With Timber Framing ": {
+      "market price": "RM 50 - 100/m2",
+      "embodied carbon factor": "170",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Brickwork With Steel Framing": {
+      "market price": "RM 50 - 100/m2",
+      "embodied carbon factor": "197.97",
+      "functional unit": "kgCO2e/m3",
+      "remark": ""
+    },
+    "Softwood Lumber per m3": {
+      "market price": "RM 50 - 150/m2",
+      "embodied carbon factor": "201.8",
+      "functional unit": "kgCO2e/m3",
+      "remark": ""
+    },
+    "Brick & Mortar With Plaster": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "248.3",
+      "functional unit": "kgCO2e/m3",
+      "remark": ""
+    },
+    "Fibre Cement": {
+      "market price": "RM 25 - 50/m2",
+      "embodied carbon factor": "300",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Polymeric Render System": {
+      "market price": "RM 250 - 350/m2",
+      "embodied carbon factor": "310",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    }
+  },
+  "Fa\u00e7ade": {
+    "Facade construction, integrated, at building": {
+      "market price": "RM 800 - 1000/m2",
+      "embodied carbon factor": "66.75",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Facade construction, mounted, at building": {
+      "market price": "RM 800 - 1000/m2",
+      "embodied carbon factor": "58.24",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    }
+  },
+  "Precast": {
+    "Concrete block, high density solid, average strength": {
+      "market price": "RM 3 - 10/no",
+      "embodied carbon factor": "0.09",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Precast concrete paving  (Blocks, slab, Channels and Kerbs)*": {
+      "market price": "RM 12 - 15/m/0.6m(H) x 0.15m(W)",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Precast concrete pipe, DN600 unreinforced": {
+      "market price": "RM 220 - 240/m/2 inch thickness",
+      "embodied carbon factor": "0.15",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Precast concrete beam and column wih recycled steel reinforced": {
+      "market price": "RM 250/no/0.5m(L) x 0.5m(W) x 4m(H)",
+      "embodied carbon factor": "0.19",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Precast concrete beam and column wih steel reinforced": {
+      "market price": "RM 250/no/0.5m(L) x 0.5m(W) x 4m(H)",
+      "embodied carbon factor": "0.25",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete block, medium density solid, average strength ": {
+      "market price": "RM 3 - 10/no",
+      "embodied carbon factor": "0.0931",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, medium density, average strength, 75 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 3/no",
+      "embodied carbon factor": "0.931",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, medium density, average strength, 90 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 3/no",
+      "embodied carbon factor": "1.07",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, medium density, average strength, 100 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "1.28",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, high density, average strength, 75 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 3/no",
+      "embodied carbon factor": "1.33",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, cellular, high density, average strength, 100 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "1.38",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Aerate autoclave concrete block, average strength, 100 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "1.59",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, high density, average strength, 90 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 3/no",
+      "embodied carbon factor": "1.6",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, high density, average strength, 100 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "1.75",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, medium density, average strength, 140 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "1.8",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, hollowcore, high density, average strength, 140 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "1.82",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, cellular, high density, average strength, 140 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "1.98",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, hollowcore, high density, average strength, 190 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 5/no",
+      "embodied carbon factor": "2.19",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Aerate autoclave concrete block, average strength, 140 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 6/no",
+      "embodied carbon factor": "2.22",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, medium density, average strength, 190 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 5/no",
+      "embodied carbon factor": "2.28",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Aerate autoclave concrete block, average strength, 150 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 6/no",
+      "embodied carbon factor": "2.38",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, hollowcore, high density, average strength, 215 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 6/no",
+      "embodied carbon factor": "2.42",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, high density, average strength, 140 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 4/no",
+      "embodied carbon factor": "2.48",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, high density, average strength, 190 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 5/no",
+      "embodied carbon factor": "3.35",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Aerate autoclave concrete block, average strength, 215 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 6/no",
+      "embodied carbon factor": "3.42",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Concrete block, solid, high density, average strength, 215 mm thickness, 440 mm length, 215 mm width": {
+      "market price": "RM 6/no",
+      "embodied carbon factor": "3.77",
+      "functional unit": "kgCO2e/Single block",
+      "remark": ""
+    },
+    "Precast hollowcore concrete flooring, 150 mm thickness, prestressed steel reinforced with recycled steel": {
+      "market price": "RM 100 - 150/m2",
+      "embodied carbon factor": "51.3",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "150 mm thickness, prestressed steel reinforced with steel": {
+      "market price": "RM 100 - 150/m2",
+      "embodied carbon factor": "55.9",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    }
+  },
+  "Floor Ceiling Structure": {
+    "Steel Reinforced Concrete 20/25 Mpa 15% fly ash": {
+      "market price": "RM 300-350/m3",
+      "embodied carbon factor": "0.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete (general)": {
+      "market price": "RM 220-350/m3",
+      "embodied carbon factor": "0.11",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete 20/25 Mpa, 15% fly ash": {
+      "market price": "RM 220 per m3",
+      "embodied carbon factor": "0.12",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sawn softwood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber/Lumber/Wood": {
+      "market price": "RM 35 - 50/m2",
+      "embodied carbon factor": "0.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Laminated veneer lumber": {
+      "market price": "RM 100 - 250/m2",
+      "embodied carbon factor": "0.33",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel": {
+      "market price": "RM 3.60/kg",
+      "embodied carbon factor": "1.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Roof": {
+    "Sawn softwood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Concrete roof tile*": {
+      "market price": "RM 45/m2",
+      "embodied carbon factor": "0.24",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Timber/Lumber/Wood*": {
+      "market price": "RM 35 - 50/m2",
+      "embodied carbon factor": "0.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Laminated veneer lumber": {
+      "market price": "RM 100 - 250/m2",
+      "embodied carbon factor": "0.33",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, General*": {
+      "market price": "RM 100-150/m2",
+      "embodied carbon factor": "1.44",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Multi layer safety, unfilled": {
+      "market price": "RM 450/m2",
+      "embodied carbon factor": "1.56",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Glazing, Double": {
+      "market price": "RM 225-280/m2",
+      "embodied carbon factor": "1.63",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Toughened": {
+      "market price": "RM 500/m2",
+      "embodied carbon factor": "1.67",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Glazing triple": {
+      "market price": "RM 350 - 400/m2",
+      "embodied carbon factor": "1.75",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, Multi layer safety, filled core, fire resistant, toughened": {
+      "market price": "RM 500/m2",
+      "embodied carbon factor": "2.08",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, sky light or roof, with frame (General)": {
+      "market price": "RM 450/m2",
+      "embodied carbon factor": "3.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass, sky light or roof, with frame": {
+      "market price": "RM 450/m2",
+      "embodied carbon factor": "3.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Corrugated Zinc Sheet* ": {
+      "market price": "RM 10/m2 ",
+      "embodied carbon factor": "6.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Roof Membrane": {
+    "Rubber (General)*": {
+      "market price": "RM 35 - 50/m2",
+      "embodied carbon factor": "2.85",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Expanded Polystyrene": {
+      "market price": "RM 50 - 60/m2",
+      "embodied carbon factor": "3.29",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "High density polyethylene (TYVEK)": {
+      "market price": "RM 250 - 300/m2/5mm thick",
+      "embodied carbon factor": "3.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Polyurethane Flexible Foam": {
+      "market price": "RM 60/m2",
+      "embodied carbon factor": "4.84",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Single-Ply, Polyester Reinforced Roofing Membrane (40 mils)": {
+      "market price": "RM 20 - 30/m2",
+      "embodied carbon factor": "4.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Single-Ply, Polyester Reinforced Roofing Membrane (48 mils)": {
+      "market price": "RM 20 - 30/m2",
+      "embodied carbon factor": "5.7",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Single-Ply, Polyester Reinforced Roofing Membrane (60 mils)": {
+      "market price": "RM 20 - 30/m2",
+      "embodied carbon factor": "6.76",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  },
+  "Roof Cover": {
+    "Slate": {
+      "market price": "RM 44/m2 ",
+      "embodied carbon factor": "0.04",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Asphalt, 4% (bitumen) binder content": {
+      "market price": "RM 35 - 40/m2",
+      "embodied carbon factor": "0.07",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plaster (General)*": {
+      "market price": "RM 12 - 16/m2",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Sawn softwood": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "lath (sawn softwood)": {
+      "market price": "RM 35/m2",
+      "embodied carbon factor": "0.2",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "General Tile (Simple Baked Products)*": {
+      "market price": "RM 60/m2",
+      "embodied carbon factor": "0.24",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plasterboard": {
+      "market price": "RM 7 - 10/m2",
+      "embodied carbon factor": "0.39",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Single Coat": {
+      "market price": "RM 9/m2",
+      "embodied carbon factor": "0.44",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Bitumen/Tar (General)*": {
+      "market price": "RM 24/m2",
+      "embodied carbon factor": "0.49",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Double Coat": {
+      "market price": "RM 18/m2",
+      "embodied carbon factor": "0.87",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Triple Coat": {
+      "market price": "RM 24/m2",
+      "embodied carbon factor": "1.31",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Steel (General)*": {
+      "market price": "RM 20/m2",
+      "embodied carbon factor": "1.46",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Waterborne Paint": {
+      "market price": "RM 10/m2",
+      "embodied carbon factor": "2.54",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Paint (General)*": {
+      "market price": "RM 6 - 9/m2",
+      "embodied carbon factor": "2.91",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Roll Formed Steel Panels (29 Ga) per m2": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "12.04",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Roll Formed Steel Panels (26 Ga) ": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "15.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Roll Formed Steel Panels (24 Ga) ": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "19.04",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Roll Formed Steel Panels (22 Ga) ": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "22.9",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Roll Formed Steel Panels (20 Ga) ": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "26.7",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Roll Formed Steel Panels (18 Ga)": {
+      "market price": "RM 65/m2",
+      "embodied carbon factor": "34.4",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Thermoplastic Polyolefin (TPO) Everguard\u00ae Roofing Membrane, (60 mil)": {
+      "market price": "RM 15-30/m2",
+      "embodied carbon factor": "3.8",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Roll-Form Cladding Roof Panels, Steel": {
+      "market price": "RM 12-15/m2",
+      "embodied carbon factor": "39.87",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    }
+  },
+  "Ceiling": {
+    "Gypsum Ceilings": {
+      "market price": "RM 20 - 25/m2",
+      "embodied carbon factor": "0.13",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Gypsum Ceilings (fibre board)*": {
+      "market price": "RM 5-7/m2",
+      "embodied carbon factor": "0.35",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "POP, Plaster Of Paris Ceilings": {
+      "market price": "RM 21/m2",
+      "embodied carbon factor": "0.39",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Gypsum Ceilings (plaster board)*": {
+      "market price": "RM 20 - 25/m3",
+      "embodied carbon factor": "0.43",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Plywood Ceilings": {
+      "market price": "RM 36 - 40/m2",
+      "embodied carbon factor": "0.68",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Metal Ceilings (galvanised steel with zinc coating)": {
+      "market price": "RM 20/m2",
+      "embodied carbon factor": "2.56",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Glass Ceilings": {
+      "market price": "RM 50 - 150/m2",
+      "embodied carbon factor": "3.1",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Fibre Cement Ceilings*": {
+      "market price": "RM 25 - 30/m2",
+      "embodied carbon factor": "12.02",
+      "functional unit": "kgCO2e/m3",
+      "remark": ""
+    }
+  },
+  "Window": {
+    "Timber Framed (Per Window)": {
+      "market price": "RM 150-180/m2",
+      "embodied carbon factor": "1.68",
+      "functional unit": "kgCO2/window",
+      "remark": ""
+    },
+    "Flat Plate Glass (1 mm) per m2": {
+      "market price": "RM 50-150/m2",
+      "embodied carbon factor": "2.67",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Flat Plate Glass \u2013 Toughened Safety (1 mm) per m2": {
+      "market price": "RM 150-200/m2",
+      "embodied carbon factor": "3.65",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Flat Plate Glass \u2013Laminated Safety (1 mm) per m2": {
+      "market price": "RM 150-200/m2",
+      "embodied carbon factor": "5.42",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "1.2mx1.2m Glazed Timber Framed Unit (per window)": {
+      "market price": "RM 150-180/m2",
+      "embodied carbon factor": "14.6",
+      "functional unit": "kgCO2/window",
+      "remark": ""
+    },
+    "Flat Plate Glass \u2013 Fire Rated, IMPact Resistant - Keralite\u00ae F, per MT or per 81.3 m2": {
+      "market price": "RM 300-500/m2",
+      "embodied carbon factor": "18.45",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Glazing, double (2-IV), U<1.1 W/m2K": {
+      "market price": "RM 50-150/m2",
+      "embodied carbon factor": "36.7",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Glazing, double (2-IV), U<1.1 W/m2K, laminated safety glass": {
+      "market price": "RM 150-200/m2",
+      "embodied carbon factor": "54.7",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Aluminium Clad Timber Framed (Per Window)": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "61.5",
+      "functional unit": "kgCO2/window",
+      "remark": ""
+    },
+    "Glazing, triple (3-IV), U<0.5 W/m2K": {
+      "market price": "RM 450/m2",
+      "embodied carbon factor": "74.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "PVC Framed (Per Window)": {
+      "market price": "RM 50 - 70/m2",
+      "embodied carbon factor": "118",
+      "functional unit": "kgCO2/window",
+      "remark": ""
+    },
+    "Window frame, wood, U=1.5 W/m2K": {
+      "market price": "RM 40/m2",
+      "embodied carbon factor": "215",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Aluminium Framed (Per Window)": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "279",
+      "functional unit": "kgCO2/window",
+      "remark": ""
+    },
+    "Window frame, plastic (PVC), U=1.6 W/m2K, at plant": {
+      "market price": "RM 50 - 70/m2",
+      "embodied carbon factor": "292",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Curtainwall Viewable Glazing per m2": {
+      "market price": "RM 250 - 500/m2",
+      "embodied carbon factor": "323",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Window frame, wood-metal, U=1.6 W/m2K, at plant": {
+      "market price": "RM 100 - 150/m2",
+      "embodied carbon factor": "395",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "PVC-clad Wood per m2": {
+      "market price": "RM 50 - 70/m2",
+      "embodied carbon factor": "431.5",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Wood per m2": {
+      "market price": "RM 40/m2",
+      "embodied carbon factor": "444.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Vinyl PVC per m2": {
+      "market price": "RM 50 - 70/m2",
+      "embodied carbon factor": "545.8",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Window frame, aluminium, U=1.6 W/m2K": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "754",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Aluminium per m2": {
+      "market price": "RM 120 - 140/m2",
+      "embodied carbon factor": "928.5",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    }
+  },
+  "Door": {
+    "Door, inner, glass-wood": {
+      "market price": "RM 100-150/m2",
+      "embodied carbon factor": "69.6",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Door, inner, wood": {
+      "market price": "RM 20-50/m2",
+      "embodied carbon factor": "55.2",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Door, outer, wood-aluminium": {
+      "market price": "RM 150-200/m2",
+      "embodied carbon factor": "125",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    },
+    "Door, outer, wood-glass": {
+      "market price": "RM 100-150/m2",
+      "embodied carbon factor": "123",
+      "functional unit": "kgCO2e/m2",
+      "remark": ""
+    }
+  },
+  "Ceramic": {
+    "tube (fittings)": {
+      "market price": "RM 12-25/no",
+      "embodied carbon factor": "1.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "ceramic gaskets (fittings)": {
+      "market price": "RM 30-40/no",
+      "embodied carbon factor": "1.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "elbows of 90 degree, 30 degree, 45 degree (fittings)": {
+      "market price": "RM 30-35/no",
+      "embodied carbon factor": "1.14",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "toilet-bowls (sanitary products)": {
+      "market price": "RM 155 - 255/no",
+      "embodied carbon factor": "1.61",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "bath tubs (sanitary products)": {
+      "market price": "RM 550 - 1500/no",
+      "embodied carbon factor": "1.61",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "wash basin (sanitary products)": {
+      "market price": "RM 200/no",
+      "embodied carbon factor": "1.61",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "shower-plates (sanitary products)": {
+      "market price": "RM 50 - 150/no",
+      "embodied carbon factor": "1.61",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "washbasins (vitreous china ceramic sanitaryware)": {
+      "market price": "RM 80/no",
+      "embodied carbon factor": "1.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "cisterns (vitreous china ceramic sanitaryware)": {
+      "market price": "RM 200/no",
+      "embodied carbon factor": "1.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "bidets (vitreous china ceramic sanitaryware)": {
+      "market price": "RM 300 - 500/no",
+      "embodied carbon factor": "1.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "shower trays, squatting pans (vitreous china ceramic sanitaryware)": {
+      "market price": "RM 200/no",
+      "embodied carbon factor": "1.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "squatting pans (vitreous china ceramic sanitaryware)": {
+      "market price": "RM 200/no",
+      "embodied carbon factor": "1.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "urinals (vitreous china ceramic sanitaryware)": {
+      "market price": "RM 200 - 500/no",
+      "embodied carbon factor": "1.5",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "washbasins (fine fireclay ceramic sanitaryware)": {
+      "market price": "RM 200/no",
+      "embodied carbon factor": "1.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "cisterns (fine fireclay ceramic sanitaryware)": {
+      "market price": "RM 300/no",
+      "embodied carbon factor": "1.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "bidets (fine fireclay ceramic sanitaryware)": {
+      "market price": "RM 1300 - 1500/no",
+      "embodied carbon factor": "1.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "shower trays, squatting pans (fine fireclay ceramic sanitaryware)": {
+      "market price": "RM 300 - 500/no",
+      "embodied carbon factor": "1.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "squatting pans (fine fireclay ceramic sanitaryware)": {
+      "market price": "RM 800/no",
+      "embodied carbon factor": "1.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "urinals (fine fireclay ceramic sanitaryware)": {
+      "market price": "RM 500 - 700/no",
+      "embodied carbon factor": "1.74",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    },
+    "Tiles and Cladding Panels": {
+      "market price": "RM 20 - 40/m2",
+      "embodied carbon factor": "0.78",
+      "functional unit": "kgCO2e/kg",
+      "remark": ""
+    }
+  }
+}

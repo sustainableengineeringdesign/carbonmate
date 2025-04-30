@@ -5,18 +5,30 @@ import ReloadIcon from "vue-material-design-icons/Reload.vue"
 import PlusIcon from "vue-material-design-icons/Plus.vue"
 import MinusIcon from "vue-material-design-icons/Minus.vue"
 
-import { reactive } from 'vue'
+import { reactive, computed } from 'vue'
+import MaterialData from '../assets/materials.json'
+
+var defaultmaterial = Object.keys(MaterialData)[0]
+var defaulttype = Object.keys(MaterialData[defaultmaterial])[0]
 const boq = reactive([
-  { material: "Steel", type: "Steel Pipe", mass: 12 }
+  { material: defaultmaterial, type: defaulttype, mass: 12 }
 ])
 
 function addnewtoboq() {
-  boq.push({ material: "", type: "", mass: 0 })
+  boq.push({ material: defaultmaterial, type: defaulttype, mass: 0 })
 }
 
 function deletefromboq(idx) {
   boq.splice(idx,1)
 }
+
+const totalemission = computed(() => boq.reduce(
+  (acc,mat) => {
+    let curr = MaterialData[mat.material][mat.type]["embodied carbon factor"] * mat.mass
+    return acc + curr
+  },
+  0
+))
 </script>
 
 <template>
@@ -31,19 +43,31 @@ function deletefromboq(idx) {
         <th></th>
         <th class="p-5">Material</th>
         <th class="p-5">Type</th>
-        <th class="p-5">Embodied Carbon Factor<br>kgCO<sub>2</sub>e/kg</th>
-        <th class="p-5">Mass<br>(kg)</th>
+        <th class="p-5" colspan="2">Embodied Carbon Factor</th>
+        <th class="p-5">Quantity</th>
         <th class="p-5">Emission<br>(kgCO<sub>2</sub>)</th>
       </tr>
     </thead>
     <tbody>
       <tr class="border-b border-b-slate-300" v-for="matlist,m in boq">
         <td class="p-5"><button title="delete row" @click="deletefromboq(m)"><MinusIcon/></button></td>
-        <td class="p-5"><select class="bg-slate-200 p-2 rounded w-full" v-model="matlist.material"><option>a</option><option>b</option></select></td>
-        <td class="p-5"><select class="bg-slate-200 p-2 rounded w-full" v-model="matlist.type"><option>a</option><option>b</option></select></td>
-        <td class="p-5">5423542</td>
-        <td class="p-5"><input class="bg-slate-200 p-2 rounded w-full" type="number" v-model="matlist.mass"></input></td>
-        <td class="p-5">52423545</td>
+        <td class="p-5">
+          <select class="bg-slate-200 p-2 rounded w-full" v-model="matlist.material">
+            <option v-for="mat in Object.keys(MaterialData).sort()">{{ mat }}</option>
+          </select>
+        </td>
+        <td class="p-5">
+          <select class="bg-slate-200 p-2 rounded w-full" v-model="matlist.type">
+            <option v-for="tp in Object.keys(MaterialData[matlist.material]).sort()">{{ tp }}</option>
+          </select>
+        </td>
+        <td class="p-5 text-right">{{ MaterialData[matlist.material][matlist.type]["embodied carbon factor"] }}</td>
+        <td class="p-5 text-left">{{ MaterialData[matlist.material][matlist.type]["functional unit"] }}</td>
+        <td class="p-5 flex flex-row items-center gap-1">
+          <input class="bg-slate-200 p-2 rounded w-full text-right" type="number" v-model="matlist.mass"></input>
+          <div>{{ MaterialData[matlist.material][matlist.type]["functional unit"].split("/")[1] }}</div>
+        </td>
+        <td class="p-5">{{ (MaterialData[matlist.material][matlist.type]["embodied carbon factor"] * matlist.mass).toFixed(4) }}</td>
       </tr>
       <tr>
         <td class="text-center p-5">
@@ -52,8 +76,9 @@ function deletefromboq(idx) {
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
         <td class="text-right p-5 font-bold">Total</td>
-        <td class="p-5 font-black">1235415234352</td>
+        <td class="p-5 font-black">{{ totalemission.toFixed(4) }}</td>
       </tr>
     </tbody>
   </table>
