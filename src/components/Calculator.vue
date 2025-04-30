@@ -106,7 +106,7 @@ function updatetype(mlist) {
 </script>
 
 <template>
-  <div class="flex flex-row justify-center rounded bg-white p-3">
+  <div class="flex flex-row justify-center rounded bg-white p-3 drop-shadow-lg drop-shadow-slate-500">
     <button title="import csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded" @click="triggerFileInput"><ImportIcon/></button>
     <input
       type="file"
@@ -117,7 +117,7 @@ function updatetype(mlist) {
     <button title="export as csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded" @click="exportboq"><ExportIcon/></button>
     <button title="clear all" class="p-3 cursor-pointer hover:bg-slate-200 rounded" @click="resetboq"><ReloadIcon/></button>
   </div>
-  <table class="table-fixed border-collapse p-5 w-full backdrop-blur-lg">
+  <table class="table-fixed border-collapse p-5 w-full backdrop-blur-lg drop-shadow-lg drop-shadow-slate-500">
     <thead>
       <tr class="border-b border-b-slate-300">
         <th></th>
@@ -161,12 +161,12 @@ function updatetype(mlist) {
         <td></td>
         <td></td>
         <td class="text-right p-5 font-bold">Total</td>
-        <td class="p-5 font-black text-center truncate" :class="'bg-' + colorseq[totalemissionidx-1] + '-500'" :title="totalemission.toFixed(4)">{{ totalemission.toFixed(4) }}</td>
+        <td class="p-5 font-black text-center truncate backdrop-blur-lg" :class="'bg-' + colorseq[totalemissionidx-1] + '-500'" :title="totalemission.toFixed(4)">{{ totalemission.toFixed(4) }}</td>
       </tr>
       <tr>
         <td colspan="6"></td>
         <td class="flex flex-row">
-          <div v-for="c in colorseq.toReversed()" :class="'bg-' + c + '-500'" class="grow h-2"></div>
+          <div v-for="c in colorseq.toReversed()" :class="'bg-' + c + '-500'" class="grow h-2 backdrop-blur-lg"></div>
         </td>
       </tr>
     </tbody>

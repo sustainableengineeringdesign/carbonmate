@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+html {
+  background-image: url('assets/background.jpeg')
+}
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
