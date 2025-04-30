@@ -5,8 +5,9 @@ import ReloadIcon from "vue-material-design-icons/Reload.vue"
 import PlusIcon from "vue-material-design-icons/Plus.vue"
 import MinusIcon from "vue-material-design-icons/Minus.vue"
 
-import { reactive, computed } from 'vue'
+import { reactive, computed, useTemplateRef } from 'vue'
 import MaterialData from '../assets/materials.json'
+import Papa from 'papaparse'
 
 var defaultmaterial = Object.keys(MaterialData)[0]
 var defaulttype = Object.keys(MaterialData[defaultmaterial])[0]
@@ -43,12 +44,77 @@ const totalemissionidx = computed(() => {
   else if (totalemission.value < 1000) { return 2 }
   else { return 1 }
 })
+
+function convertToCSV(data) {
+  const headers = Object.keys(data[0]);
+  const rows = data.map(row =>
+    headers.map(field => JSON.stringify(row[field], replacer)).join(',')
+  );
+  return [headers.join(','), ...rows].join('\r\n');
+}
+
+function replacer(key, value) {
+  return value === null ? '' : value;  // handle nulls
+}
+
+function downloadCSV(csvContent, filename = 'BOQ_'+Date.now()+'.csv') {
+  const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+  const link = document.createElement("a");
+
+  if (navigator.msSaveBlob) { // for IE
+    navigator.msSaveBlob(blob, filename);
+  } else {
+    const url = URL.createObjectURL(blob);
+    link.setAttribute("href", url);
+    link.setAttribute("download", filename);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+}
+
+function exportboq() {
+  downloadCSV(convertToCSV(boq))
+}
+
+const fileinput = useTemplateRef('file-input')
+function triggerFileInput() {
+  fileinput.value.click();
+}
+function handleFileUpload(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  Papa.parse(file, {
+    header: true,
+    skipEmptyLines: true,
+    complete: (results) => {
+      console.log('Parsed CSV data:', results.data);
+      boq.splice(0, Infinity, ...results.data)
+    },
+    error: (error) => {
+      console.error('CSV parsing error:', error);
+    }
+  });
+}
+
+function updatetype(mlist) {
+  if (!Object.keys(MaterialData[mlist.material]).includes(mlist.type)) {
+    mlist.type = Object.keys(MaterialData[mlist.material])[0]
+  }
+}
 </script>
 
 <template>
   <div class="flex flex-row justify-center rounded bg-white p-3">
-    <button title="import csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded"><ImportIcon/></button>
-    <button title="export as csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded"><ExportIcon/></button>
+    <button title="import csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded" @click="triggerFileInput"><ImportIcon/></button>
+    <input
+      type="file"
+      ref="file-input"
+      accept=".csv"
+      @change="handleFileUpload"
+      class="hidden" />
+    <button title="export as csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded" @click="exportboq"><ExportIcon/></button>
     <button title="clear all" class="p-3 cursor-pointer hover:bg-slate-200 rounded" @click="resetboq"><ReloadIcon/></button>
   </div>
   <table class="table-fixed border-collapse p-5 w-full backdrop-blur-lg">
@@ -66,7 +132,7 @@ const totalemissionidx = computed(() => {
       <tr class="border-b border-b-slate-300" v-for="matlist,m in boq">
         <td class="p-5 text-center"><button title="delete row" class="bg-white rounded cursor-pointer p-3 hover:bg-slate-200" @click="deletefromboq(m)"><MinusIcon/></button></td>
         <td class="p-5" :title="matlist.material">
-          <select class="bg-slate-200 p-3 rounded w-full" v-model="matlist.material">
+          <select class="bg-slate-200 p-3 rounded w-full" v-model="matlist.material" @change="updatetype(matlist)">
             <option v-for="mat in Object.keys(MaterialData).sort()">{{ mat }}</option>
           </select>
         </td>
