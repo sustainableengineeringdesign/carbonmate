@@ -12,7 +12,7 @@ const showguide = ref(true)
   <div class="flex-0 text-left text-lg font-black flex flex-row">
     <div class="hover:drop-shadow-lg drop-shadow-slate-500">CarbonMaTE</div>
     <div class="grow"></div>
-    <button title="user guide" class="bg-white p-3 rounded-full cursor-pointer hover:bg-slate-500" @click="showguide = true"><InformationIcon/></button>
+    <button title="user guide" class="bg-white p-3 rounded-full cursor-pointer hover:bg-slate-200" @click="showguide = true"><InformationIcon/></button>
   </div>
   <div class="flex-1 rounded-lg flex flex-col justify-center p-10">
     <div class="h-fit w-full flex flex-col items-center gap-2">
@@ -22,7 +22,7 @@ const showguide = ref(true)
   <div class="absolute left-0 top-0 w-screen h-screen bg-slate-500/50 backdrop-blur-xs backdrop-grayscale flex flex-col p-10 gap-3" :class="showguide ? '' : 'hidden'">
     <div class="flex flex-row">
       <div class="grow"></div>
-      <button title="close" class="bg-white p-3 rounded-full cursor-pointer hover:bg-slate-500" @click="showguide = false"><CloseIcon/></button>
+      <button title="close" class="bg-white p-3 rounded-full cursor-pointer hover:bg-slate-200" @click="showguide = false"><CloseIcon/></button>
     </div>
     <UserGuide/>
   </div>

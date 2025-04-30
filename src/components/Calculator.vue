@@ -22,6 +22,10 @@ function deletefromboq(idx) {
   boq.splice(idx,1)
 }
 
+function resetboq() {
+  boq.splice(0, Infinity, { material: defaultmaterial, type: defaulttype, mass: 0 })
+}
+
 const totalemission = computed(() => boq.reduce(
   (acc,mat) => {
     let curr = MaterialData[mat.material][mat.type]["embodied carbon factor"] * mat.mass
@@ -29,13 +33,23 @@ const totalemission = computed(() => boq.reduce(
   },
   0
 ))
+
+const colorseq = ["red", "orange", "amber", "lime", "green"]
+const commentseq = ["Very Poor", "Poor", "Average", "Good", "Excellent"]
+const totalemissionidx = computed(() => { 
+  if (totalemission.value < 100) { return 5 }
+  else if (totalemission.value < 300) { return 4 }
+  else if (totalemission.value < 600) { return 3 }
+  else if (totalemission.value < 1000) { return 2 }
+  else { return 1 }
+})
 </script>
 
 <template>
   <div class="flex flex-row justify-center rounded bg-white p-3">
-    <button title="import csv" class="p-3 cursor-pointer border-e border-e-slate-200"><ImportIcon/></button>
-    <button title="export as csv" class="p-3 cursor-pointer border-e border-e-slate-200"><ExportIcon/></button>
-    <button title="clear all" class="p-3 cursor-pointer"><ReloadIcon/></button>
+    <button title="import csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded"><ImportIcon/></button>
+    <button title="export as csv" class="p-3 cursor-pointer border-e border-e-slate-200 hover:bg-slate-200 rounded"><ExportIcon/></button>
+    <button title="clear all" class="p-3 cursor-pointer hover:bg-slate-200 rounded" @click="resetboq"><ReloadIcon/></button>
   </div>
   <table class="table-fixed border-collapse p-5 w-full backdrop-blur-lg">
     <thead>
@@ -50,35 +64,44 @@ const totalemission = computed(() => boq.reduce(
     </thead>
     <tbody>
       <tr class="border-b border-b-slate-300" v-for="matlist,m in boq">
-        <td class="p-5 text-center"><button title="delete row" class="bg-white rounded cursor-pointer p-3" @click="deletefromboq(m)"><MinusIcon/></button></td>
-        <td class="p-5">
+        <td class="p-5 text-center"><button title="delete row" class="bg-white rounded cursor-pointer p-3 hover:bg-slate-200" @click="deletefromboq(m)"><MinusIcon/></button></td>
+        <td class="p-5" :title="matlist.material">
           <select class="bg-slate-200 p-3 rounded w-full" v-model="matlist.material">
             <option v-for="mat in Object.keys(MaterialData).sort()">{{ mat }}</option>
           </select>
         </td>
-        <td class="p-5">
+        <td class="p-5" :title="matlist.type">
           <select class="bg-slate-200 p-3 rounded w-full" v-model="matlist.type">
             <option v-for="tp in Object.keys(MaterialData[matlist.material]).sort()">{{ tp }}</option>
           </select>
         </td>
         <td class="p-5 text-right">{{ MaterialData[matlist.material][matlist.type]["embodied carbon factor"] }}</td>
         <td class="p-5 text-left">{{ MaterialData[matlist.material][matlist.type]["functional unit"] }}</td>
-        <td class="p-5 flex flex-row items-center gap-1">
+        <td class="p-5 flex flex-row items-center gap-1" :title="matlist.mass">
           <input class="bg-slate-200 p-3 rounded w-full text-right" type="number" v-model="matlist.mass"></input>
           <div>{{ MaterialData[matlist.material][matlist.type]["functional unit"].split("/")[1] }}</div>
         </td>
-        <td class="p-5 text-center">{{ (MaterialData[matlist.material][matlist.type]["embodied carbon factor"] * matlist.mass).toFixed(4) }}</td>
+        <td 
+          class="p-5 text-center truncate"
+          :title='(MaterialData[matlist.material][matlist.type]["embodied carbon factor"] * matlist.mass).toFixed(4)'
+        >{{ (MaterialData[matlist.material][matlist.type]["embodied carbon factor"] * matlist.mass).toFixed(4) }}</td>
       </tr>
       <tr>
         <td class="text-center p-5">
-          <button title="add new row" class="bg-white rounded cursor-pointer p-3" @click="addnewtoboq"><PlusIcon/></button>
+          <button title="add new row" class="bg-white rounded cursor-pointer p-3 hover:bg-slate-200" @click="addnewtoboq"><PlusIcon/></button>
         </td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td class="text-right p-5 font-bold">Total</td>
-        <td class="p-5 font-black text-center">{{ totalemission.toFixed(4) }}</td>
+        <td class="p-5 font-black text-center truncate" :class="'bg-' + colorseq[totalemissionidx-1] + '-500'" :title="totalemission.toFixed(4)">{{ totalemission.toFixed(4) }}</td>
+      </tr>
+      <tr>
+        <td colspan="6"></td>
+        <td class="flex flex-row">
+          <div v-for="c in colorseq.toReversed()" :class="'bg-' + c + '-500'" class="grow h-2"></div>
+        </td>
       </tr>
     </tbody>
   </table>
