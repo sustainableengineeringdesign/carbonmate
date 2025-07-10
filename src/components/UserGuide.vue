@@ -81,33 +81,33 @@ const tabidx = ref(0)
                 <tr class="bg-green-500">
                   <td class="text-center p-2">&lt; 100 kg</td>
                   <td class="text-center p-2">Excellent (5)</td>
-                  <td class="text-center p-2">[90, 100]</td>
+                  <td class="text-center p-2">[90%, 100%]</td>
                 </tr>
                 <tr class="bg-lime-500">
                   <td class="text-center p-2">100 - 300 kg</td>
                   <td class="text-center p-2">Good (4)</td>
-                  <td class="text-center p-2">[70, 90)</td>
+                  <td class="text-center p-2">[70%, 90%)</td>
                 </tr>
                 <tr class="bg-amber-500">
                   <td class="text-center p-2">301 - 600 kg</td>
                   <td class="text-center p-2">Average (3)</td>
-                  <td class="text-center p-2">[50, 70)</td>
+                  <td class="text-center p-2">[50%, 70%)</td>
                 </tr>
                 <tr class="bg-orange-500">
                   <td class="text-center p-2">601 - 1000 kg</td>
                   <td class="text-center p-2">Poor (2)</td>
-                  <td class="text-center p-2">[30, 50)</td>
+                  <td class="text-center p-2">[30%, 50%)</td>
                 </tr>
                 <tr class="bg-red-500">
                   <td class="text-center p-2">&gt; 1000 kg</td>
                   <td class="text-center p-2">Very Poor (1)</td>
-                  <td class="text-center p-2">[0, 30)</td>
+                  <td class="text-center p-2">[0%, 30%)</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div>The Carbon Score reflects how sustainable the design is, with lower emissions resulting in a better score.</div>
-          <div>Note: In mathematical notation, square brackets [ ] are used to indicate that the endpoint(s) of an interval are included in the solution set, representing "less than or equal to" (&le;) or "greater than or equal to" (&ge;) when used in inequalities. Conversely, parentheses ( ) indicate that the endpoint(s) are excluded, representing "less than" (&lt;) or "greater than" (&gt;). </div>
+          <div><b>Note:</b> In mathematical notation, square brackets [ ] are used to indicate that the endpoint(s) of an interval are included in the solution set, representing "less than or equal to" (&le;) or "greater than or equal to" (&ge;) when used in inequalities. Conversely, parentheses ( ) indicate that the endpoint(s) are excluded, representing "less than" (&lt;) or "greater than" (&gt;). </div>
         </div>
         <div class="bg-slate-200 rounded p-5">
           Carbon data sources: <a href="https://www.cidb.gov.my/wp-content/uploads/2022/11/V4_EMBODIED-CARBON-INVENTORY-TEMPLATE-final-1.pdf" target="_blank">https://www.cidb.gov.my/wp-content/uploads/2022/11/V4_EMBODIED-CARBON-INVENTORY-TEMPLATE-final-1.pdf</a>
